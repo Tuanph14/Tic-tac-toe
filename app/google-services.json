@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "483864742305",
+    "firebase_url": "https://tic-tac-toe-1d7ad.firebaseio.com",
+    "project_id": "tic-tac-toe-1d7ad",
+    "storage_bucket": "tic-tac-toe-1d7ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483864742305:android:27a78a35449240f0",
+        "android_client_info": {
+          "package_name": "com.shop171217.hoang.mygame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483864742305-t2asl9u6c5hilu9k53d26kvpl35m3bt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQa2hg0EjBwC2UWmPgSYRK-wBRGYPX5cU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
