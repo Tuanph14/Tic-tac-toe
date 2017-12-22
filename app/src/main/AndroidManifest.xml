@@ -10,14 +10,37 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".StartActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StartActivity" />
-        <activity android:name=".wifi.UserListActivity"></activity>
+        <activity android:name=".push_notificaiton.UserListActivity"></activity>
+
+        <service
+            android:name=".push_notificaiton.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".push_notificaiton.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".push_notificaiton.MyReceiver">
+            <intent-filter>
+                <action android:name="reject" />
+                <action android:name="accept" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

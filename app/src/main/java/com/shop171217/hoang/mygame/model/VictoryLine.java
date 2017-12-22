@@ -6,9 +6,10 @@ import android.graphics.Color;
 import android.graphics.Paint;
 
 import static android.graphics.Paint.Style.STROKE;
-import static com.myhexaville.tictactoe.Constants.DIAGONAL_RISING;
-import static com.myhexaville.tictactoe.Constants.HORIZONTAL;
-import static com.myhexaville.tictactoe.Constants.VERTICAL;
+import static com.shop171217.hoang.mygame.Constants.DIAGONAL_RISING;
+import static com.shop171217.hoang.mygame.Constants.HORIZONTAL;
+import static com.shop171217.hoang.mygame.Constants.VERTICAL;
+
 
 public class VictoryLine {
     private final int topLeft;

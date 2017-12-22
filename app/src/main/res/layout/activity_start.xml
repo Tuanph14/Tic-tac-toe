@@ -31,6 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Single Mode"
+            android:onClick="startSingleMode"
             android:textAllCaps="false"
             android:textColor="#00BCD4"
             android:textSize="36sp" />
@@ -44,6 +45,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="8dp"
             android:text="Multiplayer"
+            android:onClick="startMultilayer"
             android:textAllCaps="false"
             android:textColor="#3F51B5"
             android:textSize="36sp" />
@@ -99,6 +101,7 @@
             android:layout_height="wrap_content"
             android:visibility="gone"
             android:text="Log in"
+            android:onClick="loginWithEmail"
             android:textAllCaps="false"
             android:textColor="#000" />
 

@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'me.tatarka.retrolambda'
 android {
-    compileSdkVersion 26
+    compileSdkVersion 27
     defaultConfig {
         applicationId "com.shop171217.hoang.mygame"
         minSdkVersion 18
@@ -24,7 +24,7 @@ android {
 dependencies {
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:appcompat-v7:27.0.1'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
@@ -32,9 +32,8 @@ dependencies {
     compile 'com.google.firebase:firebase-core:11.8.0'
     implementation 'io.reactivex.rxjava2:rxjava:2.0.5'
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
-    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support:design:27.0.1'
     implementation 'com.squareup.okhttp3:okhttp:3.8.0'
-    implementation 'com.android.databinding:compiler:2.3.1'
     implementation 'com.google.firebase:firebase-database:11.8.0'
     implementation 'com.google.firebase:firebase-messaging:11.8.0'
     implementation 'com.google.firebase:firebase-auth:11.8.0'
